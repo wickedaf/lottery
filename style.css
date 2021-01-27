@@ -83,3 +83,9 @@ background: radial-gradient(circle at 100px 100px, #5cabff, #000);
     font-size:25px;
     text-shadow:1px 1px 2px #141f1f;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      padding: 5%;
+    }
+  }
