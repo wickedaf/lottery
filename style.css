@@ -84,8 +84,18 @@ background: radial-gradient(circle at 100px 100px, #5cabff, #000);
     text-shadow:1px 1px 2px #141f1f;
 }
 
-@media only screen and (max-width: 600px) {
+@media all and (min-width: 150px) and (max-width: 600px) {
     body {
       padding: 5%;
+    }
+
+    #select {
+        width: 60px;
+        height:8px;
+        background-color:black;
+        z-index:3;
+        position:relative ;
+        float:right;
+        margin-top:-125px;
     }
   }
